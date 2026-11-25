@@ -90,6 +90,3 @@ Tectonic is also supported: `tectonic --keep-logs --keep-intermediates paper/mai
 Kather 2016: [Zenodo, DOI 10.5281/zenodo.53169](https://zenodo.org/records/53169), CC BY 4.0; cite Kather et al., *Multi-class texture analysis in colorectal cancer histology*, Scientific Reports 6, 27988 (2016).
 
 SIPaKMeD: [the original University of Ioannina release](https://www.cse.uoi.gr/~marina/sipakmed.html); the provider permits experimental use with citation to Plissiti et al., ICIP 2018, pp. 3144–3148, DOI 10.1109/ICIP.2018.8451588. No additional dataset license is inferred or granted here.
-
-The code license is MIT. Manuscript rights belong to its authors. Springer template files and third-party datasets retain their respective terms and notices. No remote repository or conference submission is created by this artifact.
-
