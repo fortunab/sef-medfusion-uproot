@@ -1,0 +1,11 @@
+{
+  "python": "3.12.3 | packaged by conda-forge | (main, Apr 15 2024, 18:20:11) [MSC v.1938 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD",
+  "logical_cpus": 16,
+  "torch": "2.13.0+cpu",
+  "numpy": "1.26.4",
+  "device": "cpu",
+  "torch_threads": 4,
+  "deterministic_algorithms": true
+}

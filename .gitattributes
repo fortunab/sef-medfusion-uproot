@@ -1,0 +1,7 @@
+* text=auto
+*.cls -text
+*.bst -text
+*.pt binary
+*.npz binary
+*.pdf binary
+*.png binary

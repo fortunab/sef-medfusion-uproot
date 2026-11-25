@@ -1,0 +1,12 @@
+{
+  "predictions": 2000,
+  "triples": 36063,
+  "shacl_conforms": true,
+  "negative_control_rejected": true,
+  "sparql_flag_count": 48,
+  "direct_flag_count": 48,
+  "insertion_seconds": 4.1885335999540985,
+  "validation_seconds": 7.493451499962248,
+  "stage_values_inferred": 0,
+  "model_sha256": "0ed33bdda0ad288c95601834fca4def15c479ffe3924f68c78d9ac476e2ff339"
+}

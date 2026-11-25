@@ -1,0 +1,61 @@
+{
+  "dataset": "kather2016",
+  "seed": 17,
+  "selected_width": 8,
+  "attack": "gaussian",
+  "epsilon": 0.03137254901960784,
+  "steps": 0,
+  "n": 1000,
+  "classification": {
+    "accuracy": 0.748,
+    "macro_f1": 0.7116591469975027,
+    "confidence": 0.7701455354690552,
+    "ece_15": 0.10315939611196516,
+    "nll": 0.6060876250267029,
+    "brier": 0.30786603757725206,
+    "n": 1000
+  },
+  "clean_correct_n": 889,
+  "attack_success_rate": 0.17660292983055115,
+  "detectors": {
+    "combined": {
+      "auroc": 0.639723,
+      "fpr": 0.045,
+      "tpr_all": 0.222,
+      "tpr_successful": 0.9554140127388535,
+      "successful_attacks": 157,
+      "n": 1000,
+      "threshold": 0.44556307792663574
+    },
+    "gradient": {
+      "auroc": 0.636144,
+      "fpr": 0.041,
+      "tpr_all": 0.22,
+      "tpr_successful": 0.9299363057324841,
+      "successful_attacks": 157,
+      "n": 1000,
+      "threshold": 0.46722960472106934
+    },
+    "uncertainty": {
+      "auroc": 0.637319,
+      "fpr": 0.037,
+      "tpr_all": 0.148,
+      "tpr_successful": 0.7070063694267515,
+      "successful_attacks": 157,
+      "n": 1000,
+      "threshold": 0.4770318865776062
+    },
+    "entropy": {
+      "auroc": 0.64291,
+      "fpr": 0.051,
+      "tpr_all": 0.196,
+      "tpr_successful": 0.89171974522293,
+      "successful_attacks": 157,
+      "n": 1000,
+      "threshold": 0.9663240909576416
+    }
+  },
+  "max_pixel_delta": 0.1638382226228714,
+  "elapsed_seconds": 2.62641580007039,
+  "checkpoint_sha256": "0ed33bdda0ad288c95601834fca4def15c479ffe3924f68c78d9ac476e2ff339"
+}

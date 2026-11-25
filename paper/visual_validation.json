@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "documents": [
+    {
+      "document": "main.pdf",
+      "pdf_sha256": "dbc2c317ce3beabb82db8b908587280473dc748e09f443c53a281016ec0c0963",
+      "rendered_pages": 12,
+      "all_pages_visually_reviewed": true,
+      "layout_defects_found": 0
+    },
+    {
+      "document": "main_aina.pdf",
+      "pdf_sha256": "49d863f081ec00106d4c4c45aaae19fb632ca39e554390726a2c59712f094df6",
+      "rendered_pages": 12,
+      "all_pages_visually_reviewed": true,
+      "layout_defects_found": 0
+    }
+  ],
+  "all_fonts_embedded": true,
+  "type3_fonts": 0
+}

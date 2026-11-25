@@ -1,0 +1,20 @@
+{
+  "src/sef_medfusion/__init__.py": "14436d9c3d6aa7140582c64a7604200694ff6ff38a0ec4fd09b98ac31345bb39",
+  "src/sef_medfusion/attacks.py": "ede20c05078094851d017400cc8968e14c483a6174c971a87a500db1649ccca1",
+  "src/sef_medfusion/cli.py": "ac021068b17b1d7bad79383897c5c3f66437b6ab47da6069ebed867da6e183e8",
+  "src/sef_medfusion/data.py": "f55af844dcbc60f0883dd6ceec7c3f3ecef2f3d831f69fc3ebdefd2273727426",
+  "src/sef_medfusion/detector.py": "3c6d1acf1d8dbdbd2e033bf6e2840d1d12f12bd29341cc110c57a357b3658219",
+  "src/sef_medfusion/experiment.py": "2eb17df021572101899e4b062cacfeda153c08c1782313853e74946174a19fea",
+  "src/sef_medfusion/inference.py": "e92d3058a1c94d9a9c2e52416eb91e03732bfbb0890a6e5e34072958fa7a554d",
+  "src/sef_medfusion/metrics.py": "fe013c7070836e476edcb18e9b5f0a96fd9a9ac406d16f0ab953a749ef16d333",
+  "src/sef_medfusion/models.py": "b22fbc3843adf995ec6b3e46f5e59e0c2bdae9191ca8a6d294c35531e665fd60",
+  "src/sef_medfusion/monitor.py": "ce60813e7cea6c40639cf0d9e136dbd66b6b7d583384f30558ad04735e16a550",
+  "src/sef_medfusion/report.py": "3300458a044d75f2db7f532e2a662226cbce8ab5b1983465c7277abe2b691f6b",
+  "src/sef_medfusion/resources/data_checksums.json": "4e71e7131e2d4fab6409c0c5d371487c51a1fe2ee383f9e18f7eebd53a7aab6d",
+  "src/sef_medfusion/resources/ontology.ttl": "6c92730d048889f8f5de3dbff5bd07fa472e7e104f4d43ab0895ce33a854399f",
+  "src/sef_medfusion/resources/shapes.ttl": "3f753bdd39a65f81f7a20a47d8401120693eef289c40bdd4b2d65f0fc528252d",
+  "src/sef_medfusion/semantic.py": "365053d532f7009b40ecd34d0c5d32eaa328b9d91fa4f44076d0364ab18a7e49",
+  "src/sef_medfusion/training.py": "8874668b73f887924407837d726becc4d8472c4c6c1070bc8b6d3f74f0d9ce9b",
+  "src/sef_medfusion/utils.py": "757ce3b73772dd626d84c9861bee7d43366445c5c6086c87cdadd379b1aec56b",
+  "src/sef_medfusion/verify.py": "06734c58b34ee484980881ffb3f8146a61b63173a663a85430790076c8cccccd"
+}

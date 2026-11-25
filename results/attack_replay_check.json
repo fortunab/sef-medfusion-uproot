@@ -1,0 +1,113 @@
+{
+  "cases": [
+    {
+      "dataset": "kather2016",
+      "seed": 17,
+      "condition": "fgsm_04",
+      "n": 32,
+      "input_hashes_equal": true,
+      "max_probability_difference": 0.0,
+      "runtime_bound_checked": true
+    },
+    {
+      "dataset": "kather2016",
+      "seed": 17,
+      "condition": "fgsm_08",
+      "n": 32,
+      "input_hashes_equal": true,
+      "max_probability_difference": 0.0,
+      "runtime_bound_checked": true
+    },
+    {
+      "dataset": "kather2016",
+      "seed": 17,
+      "condition": "pgd20_04",
+      "n": 32,
+      "input_hashes_equal": true,
+      "max_probability_difference": 0.0,
+      "runtime_bound_checked": true
+    },
+    {
+      "dataset": "kather2016",
+      "seed": 17,
+      "condition": "pgd20_08",
+      "n": 32,
+      "input_hashes_equal": true,
+      "max_probability_difference": 0.0,
+      "runtime_bound_checked": true
+    },
+    {
+      "dataset": "kather2016",
+      "seed": 17,
+      "condition": "gaussian_08",
+      "n": 32,
+      "input_hashes_equal": true,
+      "max_probability_difference": 0.0,
+      "runtime_bound_checked": false
+    },
+    {
+      "dataset": "kather2016",
+      "seed": 17,
+      "condition": "adaptive_08",
+      "n": 32,
+      "input_hashes_equal": true,
+      "max_probability_difference": 0.0,
+      "runtime_bound_checked": true
+    },
+    {
+      "dataset": "sipakmed",
+      "seed": 17,
+      "condition": "fgsm_04",
+      "n": 32,
+      "input_hashes_equal": true,
+      "max_probability_difference": 0.0,
+      "runtime_bound_checked": true
+    },
+    {
+      "dataset": "sipakmed",
+      "seed": 17,
+      "condition": "fgsm_08",
+      "n": 32,
+      "input_hashes_equal": true,
+      "max_probability_difference": 0.0,
+      "runtime_bound_checked": true
+    },
+    {
+      "dataset": "sipakmed",
+      "seed": 17,
+      "condition": "pgd20_04",
+      "n": 32,
+      "input_hashes_equal": true,
+      "max_probability_difference": 0.0,
+      "runtime_bound_checked": true
+    },
+    {
+      "dataset": "sipakmed",
+      "seed": 17,
+      "condition": "pgd20_08",
+      "n": 32,
+      "input_hashes_equal": true,
+      "max_probability_difference": 0.0,
+      "runtime_bound_checked": true
+    },
+    {
+      "dataset": "sipakmed",
+      "seed": 17,
+      "condition": "gaussian_08",
+      "n": 32,
+      "input_hashes_equal": true,
+      "max_probability_difference": 0.0,
+      "runtime_bound_checked": false
+    },
+    {
+      "dataset": "sipakmed",
+      "seed": 17,
+      "condition": "adaptive_08",
+      "n": 32,
+      "input_hashes_equal": true,
+      "max_probability_difference": 0.0,
+      "runtime_bound_checked": true
+    }
+  ],
+  "passed": true
+}

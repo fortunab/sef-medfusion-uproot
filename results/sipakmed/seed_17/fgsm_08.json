@@ -1,0 +1,61 @@
+{
+  "dataset": "sipakmed",
+  "seed": 17,
+  "selected_width": 8,
+  "attack": "fgsm",
+  "epsilon": 0.03137254901960784,
+  "steps": 1,
+  "n": 861,
+  "classification": {
+    "accuracy": 0.3008130081300813,
+    "macro_f1": 0.28776779787399054,
+    "confidence": 0.7216387391090393,
+    "ece_15": 0.42082564856394106,
+    "nll": 2.5191540718078613,
+    "brier": 1.0216663336285203,
+    "n": 861
+  },
+  "clean_correct_n": 749,
+  "attack_success_rate": 0.6568758487701416,
+  "detectors": {
+    "combined": {
+      "auroc": 0.7151099186452293,
+      "fpr": 0.06504065040650407,
+      "tpr_all": 0.022067363530778164,
+      "tpr_successful": 0.024390243902439025,
+      "successful_attacks": 492,
+      "n": 861,
+      "threshold": 0.47168588638305664
+    },
+    "gradient": {
+      "auroc": 0.6632902615735963,
+      "fpr": 0.06852497096399536,
+      "tpr_all": 0.017421602787456445,
+      "tpr_successful": 0.02032520325203252,
+      "successful_attacks": 492,
+      "n": 861,
+      "threshold": 0.4632573425769806
+    },
+    "uncertainty": {
+      "auroc": 0.7539554390068541,
+      "fpr": 0.041811846689895474,
+      "tpr_all": 0.06387921022067364,
+      "tpr_successful": 0.08333333333333333,
+      "successful_attacks": 492,
+      "n": 861,
+      "threshold": 0.5075204372406006
+    },
+    "entropy": {
+      "auroc": 0.7399561053848469,
+      "fpr": 0.047619047619047616,
+      "tpr_all": 0.05226480836236934,
+      "tpr_successful": 0.06504065040650407,
+      "successful_attacks": 492,
+      "n": 861,
+      "threshold": 1.092123031616211
+    }
+  },
+  "max_pixel_delta": 0.03137257695198059,
+  "elapsed_seconds": 5.741478099953383,
+  "checkpoint_sha256": "84d0883356f9824b3e33c5357d47467ef63a12bec114ee26f27df5b436e69d2d"
+}

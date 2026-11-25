@@ -1,0 +1,9 @@
+On Kather 2016, mean PGD-$8/255$ AUROC is 0.380 for the combined score and 0.387 for the strongest single-signal baseline (uncertainty).
+
+On SIPaKMeD, mean PGD-$8/255$ AUROC is 0.326 for the combined score and 0.335 for the strongest single-signal baseline (uncertainty).
+
+In each dataset, the mean AUROC of the combined score is below 0.5. Its fixed score direction ranks attacked inputs poorly relative to clean images.
+
+The combination does not provide a uniform AUROC improvement over the strongest single-signal baseline across these datasets. Its contribution must therefore be judged from the measured operating points rather than presumed from combining signals.
+
+The adaptive condition uses a different, initially correct subset; its classification accuracy and detection rate should not be compared directly with whole-test-set PGD as if their denominators were identical.

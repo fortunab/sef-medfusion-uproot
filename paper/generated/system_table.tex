@@ -1,0 +1,15 @@
+\begin{table}[t]
+\centering
+\caption{Measured system checks for seed 17. Insert is graph construction time per prediction, SHACL is full-graph validation time, and monitor is median forward-plus-detector latency averaged across three seeds (batch size 1).}
+\label{tab:systems}
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrrr}
+\toprule
+Dataset & Pred. & Triples & Insert (ms) & SHACL (s) & Monitor (ms) \\
+\midrule
+Kather 2016 & 2000 & 36063 & 2.09 & 7.49 & 3.16 \\
+SIPaKMeD & 1722 & 31059 & 2.18 & 5.84 & 3.39 \\
+\bottomrule
+\end{tabular}
+\end{table}

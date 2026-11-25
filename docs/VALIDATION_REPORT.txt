@@ -1,0 +1,36 @@
+VALIDATION OF THE DELIVERED RECONSTRUCTION
+
+Date: 25 November 2026
+LLNCS PDF pages including references: 12
+Official AINA svproc PDF pages including references: 12
+Unit tests: 14 passed.
+Primary training runs: 18 (two datasets, three widths, three seeds).
+Primary perturbation evaluations: 36.
+Independent training repeats: 2; weights and probabilities match bit for bit.
+Independent attack-minibatch replays: 12; processed-input SHA-256 hashes match.
+RDF graphs: 2; SHACL conformance, negative controls and SPARQL/event counts checked.
+Federated models: 2; final probabilities and checkpoint hashes checked.
+Kather filename-family holdout: separately trained and evaluated.
+Template class files: byte-identical to their supplied/downloaded originals.
+Both final PDFs: compiled, page-count checked, and visually inspected.
+
+kather2016
+  Selected clean accuracy: 87.53% (sample SD 1.72 percentage points).
+  PGD-20 at 8/255 classification accuracy: 0.03%.
+  PGD successful-attack detection: 1.12%.
+  Clean FPR at that operating point: 4.97%.
+  Final-round FedAvg accuracy (one seed, shorter budget): 48.00%.
+
+sipakmed
+  Selected clean accuracy: 86.02% (sample SD 1.78 percentage points).
+  PGD-20 at 8/255 classification accuracy: 0.46%.
+  PGD successful-attack detection: 0.09%.
+  Clean FPR at that operating point: 6.85%.
+  Final-round FedAvg accuracy (one seed, shorter budget): 46.34%.
+
+Interpretation: the implemented monitor misses successful adversarial inputs; the measurements do not validate a robust or clinically deployable classifier.
+The main Kather evaluation is tile-level. A separate inferred filename-family holdout is reported; neither split is claimed to establish verified patient independence.
+TNM stages are never inferred from these class labels. External TNM records require source, system and edition metadata.
+The federated experiment is a single-process balanced IID simulation without a privacy guarantee.
+
+No GitHub publication, Overleaf account upload, EDAS submission, copyright signature, or registration was performed.

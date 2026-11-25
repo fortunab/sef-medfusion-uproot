@@ -1,0 +1,10 @@
+{
+  "dataset": "kather2016",
+  "seed": 17,
+  "width": 8,
+  "max_weight_difference": 0.0,
+  "max_probability_difference": 0.0,
+  "best_epoch": 21,
+  "elapsed_seconds": 272.93662280007266,
+  "bitwise_equal": true
+}

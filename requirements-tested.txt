@@ -1,0 +1,14 @@
+# Direct packages from the validated CPU environment, Python 3.12.3.
+# Install torch from the official CPU index before the remaining packages.
+torch==2.13.0
+numpy==1.26.4
+Pillow==10.4.0
+scikit-learn==1.5.1
+scipy==1.13.1
+matplotlib==3.11.1
+rdflib==7.6.0
+pyshacl==0.40.2
+py7zr==1.1.4
+pytest==7.4.4
+pypdf==6.18.0
+

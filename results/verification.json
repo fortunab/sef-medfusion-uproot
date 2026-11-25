@@ -1,0 +1,26 @@
+{
+  "classification_runs": 18,
+  "attack_runs": 36,
+  "graphs": 2,
+  "checks": [
+    "source-group separation",
+    "pixel duplicate exclusion",
+    "checkpoint SHA-256",
+    "probability validity",
+    "classification metric recomputation",
+    "proxy arithmetic and selection",
+    "attack pixel bounds",
+    "attack-success labels",
+    "all detection metric recomputation",
+    "RDF round-trip",
+    "SHACL validation",
+    "negative controls",
+    "SPARQL/event count equality",
+    "no TNM stages inferred"
+  ],
+  "federated_models_checked": 2,
+  "independent_training_repeats": 2,
+  "replayed_attack_minibatches": 12,
+  "source_family_holdout_checked": true,
+  "passed": true
+}

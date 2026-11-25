@@ -1,0 +1,33 @@
+@prefix med: <https://w3id.org/sef-medfusion/research#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/sef-medfusion/research> a owl:Ontology ;
+    rdfs:label "SeF-MedFusion research vocabulary (local proposal; namespace not registered)" .
+med:Prediction a owl:Class ; rdfs:subClassOf prov:Entity .
+med:Sample a owl:Class ; rdfs:subClassOf prov:Entity .
+med:Model a owl:Class ; rdfs:subClassOf prov:Entity .
+med:ProcessingRun a owl:Class ; rdfs:subClassOf prov:Activity .
+med:Dataset a owl:Class ; rdfs:subClassOf prov:Entity .
+med:ExternalTNM a owl:Class ; rdfs:subClassOf prov:Entity .
+med:sample a owl:ObjectProperty ; rdfs:domain med:Prediction ; rdfs:range med:Sample .
+med:model a owl:ObjectProperty ; rdfs:domain med:Prediction ; rdfs:range med:Model .
+med:dataset a owl:ObjectProperty ; rdfs:range med:Dataset .
+med:externalTNM a owl:ObjectProperty ; rdfs:range med:ExternalTNM .
+med:classLabel a owl:DatatypeProperty ; rdfs:range xsd:string .
+med:confidence a owl:DatatypeProperty ; rdfs:range xsd:double .
+med:gradientNorm a owl:DatatypeProperty ; rdfs:range xsd:double .
+med:adversarialScore a owl:DatatypeProperty ; rdfs:range xsd:double .
+med:flagged a owl:DatatypeProperty ; rdfs:range xsd:boolean .
+med:sha256 a owl:DatatypeProperty ; rdfs:range xsd:string .
+med:stageStatus a owl:DatatypeProperty ; rdfs:range xsd:string .
+med:inputCondition a owl:DatatypeProperty ; rdfs:range xsd:string .
+med:seed a owl:DatatypeProperty ; rdfs:range xsd:integer .
+med:configuration a owl:DatatypeProperty ; rdfs:range xsd:string .
+med:T a owl:DatatypeProperty ; rdfs:range xsd:string .
+med:N a owl:DatatypeProperty ; rdfs:range xsd:string .
+med:M a owl:DatatypeProperty ; rdfs:range xsd:string .
+med:stagingSystem a owl:DatatypeProperty ; rdfs:range xsd:string .
+med:stagingEdition a owl:DatatypeProperty ; rdfs:range xsd:string .

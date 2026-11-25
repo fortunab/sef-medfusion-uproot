@@ -1,0 +1,11 @@
+{
+  "gradient_scale": 7.563419818878174,
+  "alpha": 0.5,
+  "quantile": 0.95,
+  "thresholds": {
+    "combined": 0.407947838306427,
+    "gradient": 0.3817766606807709,
+    "uncertainty": 0.4855028986930847,
+    "entropy": 1.070680022239685
+  }
+}

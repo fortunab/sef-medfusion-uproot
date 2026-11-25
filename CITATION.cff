@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying manuscript and the source datasets when using this research implementation."
+type: software
+title: "SeF-MedFusion-Uproot: Reproducible Robustness Monitoring and Semantic Provenance for Histology and Cytology"
+version: 0.1.0
+date-released: 2026-11-25
+authors:
+  - family-names: Babuc
+    given-names: Diogen
+    orcid: "https://orcid.org/0009-0000-5126-6480"
+  - family-names: Fortiş
+    given-names: Teodor-Florin
+    orcid: "https://orcid.org/0000-0002-3143-8908"
+license: MIT
+abstract: "Compact image classification, gradient-confidence review signals, RDF provenance, SHACL validation, and reproducible public-data stress tests."

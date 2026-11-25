@@ -1,0 +1,12 @@
+{
+  "official_aina_archive": "https://voyager.ce.fit.ac.jp/conf/aina/2027/public/For-the-authors-LECTURE-NOTES-TEMPLATES.zip",
+  "official_archive_sha256": "2b08d506f35835b1da35af5345feefaaabe95987306ccdb740e5d64c452f0dd1",
+  "checked_on": "2026-11-25",
+  "files": {
+    "llncs.cls": "a3cfe775b394aba8db8fbb54b8920ecbb12f4532cf787cd6d9b04712f58d0d1a",
+    "splncs04.bst": "f36c3a17e5304a692706359aafa9de709395a085e579eb47c027095aeaa35174",
+    "svproc.cls": "ddfc1f23edfbb51f13bb6a6e427b63c41cc9a965f08a3bc65e83c81ee9ae9560",
+    "splncs03.bst": "a4293f9e12b051be20803d0c11d2d7de4263f13ccdacf79ed77e8ae1047ec5d9"
+  },
+  "class_files_modified": false
+}

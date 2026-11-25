@@ -1,0 +1,10 @@
+{
+  "dataset": "sipakmed",
+  "seed": 17,
+  "width": 8,
+  "max_weight_difference": 0.0,
+  "max_probability_difference": 0.0,
+  "best_epoch": 23,
+  "elapsed_seconds": 213.97736270003952,
+  "bitwise_equal": true
+}

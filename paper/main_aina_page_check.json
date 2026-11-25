@@ -1,0 +1,8 @@
+{
+  "document": "main_aina.pdf",
+  "pages_including_references": 12,
+  "within_12_page_limit": true,
+  "unresolved_references": false,
+  "visual_inspection": "passed for delivered PDF; all 12 pages rendered and reviewed",
+  "pdf_sha256": "49d863f081ec00106d4c4c45aaae19fb632ca39e554390726a2c59712f094df6"
+}

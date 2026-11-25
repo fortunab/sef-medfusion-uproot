@@ -1,0 +1,21 @@
+\begin{table}[t]
+\centering
+\caption{Detector ablation on PGD-20 at $8/255$. Every threshold is independently calibrated on clean calibration data at the 95th percentile. AUROC uses all clean and perturbed test images; TPR$_s$ uses successful attacks.}
+\label{tab:detectors}
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{llrrr}
+\toprule
+Dataset & Detector & AUROC & TPR$_s$ (\%) & FPR (\%) \\
+\midrule
+Kather 2016 & 1 - confidence & 0.387 $\pm$ 0.064 & 0.84 $\pm$ 0.36 & 4.30 $\pm$ 0.66 \\
+Kather 2016 & Entropy & 0.378 $\pm$ 0.060 & 1.03 $\pm$ 0.70 & 4.23 $\pm$ 0.81 \\
+Kather 2016 & Gradient & 0.378 $\pm$ 0.088 & 2.14 $\pm$ 3.13 & 4.47 $\pm$ 0.32 \\
+Kather 2016 & Combined & 0.380 $\pm$ 0.077 & 1.12 $\pm$ 1.56 & 4.97 $\pm$ 0.50 \\
+SIPaKMeD & 1 - confidence & 0.335 $\pm$ 0.082 & 0.18 $\pm$ 0.21 & 4.84 $\pm$ 0.64 \\
+SIPaKMeD & Entropy & 0.320 $\pm$ 0.084 & 0.13 $\pm$ 0.13 & 4.61 $\pm$ 0.60 \\
+SIPaKMeD & Gradient & 0.319 $\pm$ 0.067 & 0.09 $\pm$ 0.08 & 7.28 $\pm$ 1.95 \\
+SIPaKMeD & Combined & 0.326 $\pm$ 0.077 & 0.09 $\pm$ 0.08 & 6.85 $\pm$ 0.35 \\
+\bottomrule
+\end{tabular}
+\end{table}

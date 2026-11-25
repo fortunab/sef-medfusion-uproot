@@ -1,0 +1,82 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\providecommand{\doi}[1]{https://doi.org/#1}
+
+\bibitem{babuc2025}
+Babuc, D., Forti{\c{s}}, T.F.: {AD-ZeroNAS}: Zero-shot proxies for efficient
+  neural architecture search via activation diversity function on
+  histopathological use cases. In: Complex, Intelligent and Software Intensive
+  Systems. pp. 24--35. Lecture Notes on Data Engineering and Communications
+  Technologies, Springer (2025). \doi{10.1007/978-3-031-96099-4_3}
+
+\bibitem{carlini2017}
+Carlini, N., Wagner, D.: Adversarial examples are not easily detected:
+  Bypassing ten detection methods. In: Proceedings of the 10th ACM Workshop on
+  Artificial Intelligence and Security. pp. 3--14 (2017).
+  \doi{10.1145/3128572.3140444}
+
+\bibitem{goodfellow2015}
+Goodfellow, I.J., Shlens, J., Szegedy, C.: Explaining and harnessing
+  adversarial examples. In: International Conference on Learning
+  Representations (2015), \url{https://arxiv.org/abs/1412.6572}
+
+\bibitem{ilse2018}
+Ilse, M., Tomczak, J.M., Welling, M.: Attention-based deep multiple instance
+  learning. In: Proceedings of the 35th International Conference on Machine
+  Learning. Proceedings of Machine Learning Research, vol.~80, pp. 2127--2136
+  (2018), \url{https://proceedings.mlr.press/v80/ilse18a.html}
+
+\bibitem{kather2016}
+Kather, J.N., Weis, C.A., Bianconi, F., Melchers, S.M., Schad, L.R., Gaiser,
+  T., Marx, A., Z{\"o}llner, F.G.: Multi-class texture analysis in colorectal
+  cancer histology. Scientific Reports  \textbf{6},  27988 (2016).
+  \doi{10.1038/srep27988}
+
+\bibitem{katherdata2016}
+Kather, J.N., Z{\"o}llner, F.G., Bianconi, F., et~al.: Collection of textures
+  in colorectal cancer histology (2016). \doi{10.5281/zenodo.53169}
+
+\bibitem{shacl2017}
+Knublauch, H., Kontokostas, D.: Shapes constraint language ({SHACL}). W3c
+  recommendation, World Wide Web Consortium (2017),
+  \url{https://www.w3.org/TR/shacl/}
+
+\bibitem{prov2013}
+Lebo, T., Sahoo, S., McGuinness, D.: {PROV-O}: The {PROV} ontology. W3c
+  recommendation, World Wide Web Consortium (2013),
+  \url{https://www.w3.org/TR/prov-o/}
+
+\bibitem{lu2021}
+Lu, M.Y., Williamson, D.F.K., Chen, T.Y., Chen, R.J., Barbieri, M., Mahmood,
+  F.: Data-efficient and weakly supervised computational pathology on
+  whole-slide images. Nature Biomedical Engineering  \textbf{5},  555--570
+  (2021). \doi{10.1038/s41551-020-00682-w}
+
+\bibitem{madry2018}
+Madry, A., Makelov, A., Schmidt, L., Tsipras, D., Vladu, A.: Towards deep
+  learning models resistant to adversarial attacks. In: International
+  Conference on Learning Representations (2018),
+  \url{https://arxiv.org/abs/1706.06083}
+
+\bibitem{mcmahan2017}
+McMahan, H.B., Moore, E., Ramage, D., Hampson, S., Ag{\"u}era~y Arcas, B.:
+  Communication-efficient learning of deep networks from decentralized data.
+  In: Proceedings of the 20th International Conference on Artificial
+  Intelligence and Statistics. Proceedings of Machine Learning Research,
+  vol.~54, pp. 1273--1282 (2017),
+  \url{https://proceedings.mlr.press/v54/mcmahan17a.html}
+
+\bibitem{nci2025}
+{National Cancer Institute}: Cancer staging,
+  \url{https://www.cancer.gov/about-cancer/diagnosis-staging/staging}, accessed
+  25 November 2026
+
+\bibitem{plissiti2018}
+Plissiti, M.E., Dimitrakopoulos, P., Sfikas, G., Nikou, C., Krikoni, O.,
+  Charchanti, A.: {SIPaKMeD}: A new dataset for feature and image based
+  classification of normal and pathological cervical cells in pap smear images.
+  In: 2018 25th IEEE International Conference on Image Processing (ICIP). pp.
+  3144--3148 (2018). \doi{10.1109/ICIP.2018.8451588}
+
+\end{thebibliography}

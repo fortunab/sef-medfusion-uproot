@@ -1,0 +1,19 @@
+\begin{table}[t]
+\centering
+\caption{Clean test performance (percent, mean $\pm$ sample SD over three initialization seeds). Width denotes the first block channel count; * marks proxy selection. ECE uses 15 bins.}
+\label{tab:classification}
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{llrrrr}
+\toprule
+Dataset & Width & Params (k) & Accuracy & Macro F1 & ECE \\
+\midrule
+Kather 2016 & 8* & 18.6 & 87.5 $\pm$ 1.7 & 87.4 $\pm$ 1.7 & 3.7 $\pm$ 0.5 \\
+Kather 2016 & 16 & 72.8 & 88.2 $\pm$ 0.2 & 88.1 $\pm$ 0.2 & 2.9 $\pm$ 0.2 \\
+Kather 2016 & 32 & 288.5 & 88.3 $\pm$ 1.5 & 88.3 $\pm$ 1.4 & 2.7 $\pm$ 0.5 \\
+SIPaKMeD & 8* & 18.5 & 86.0 $\pm$ 1.8 & 86.0 $\pm$ 1.7 & 3.9 $\pm$ 1.1 \\
+SIPaKMeD & 16 & 72.6 & 86.5 $\pm$ 2.9 & 86.4 $\pm$ 2.9 & 3.3 $\pm$ 0.8 \\
+SIPaKMeD & 32 & 288.1 & 87.0 $\pm$ 1.7 & 86.8 $\pm$ 1.7 & 3.2 $\pm$ 0.4 \\
+\bottomrule
+\end{tabular}
+\end{table}

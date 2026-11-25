@@ -1,0 +1,218 @@
+{
+  "main.pdf": {
+    "fonts": {
+      "/IHAIZV+LMRoman12-Bold": {
+        "subtype": "/Type1",
+        "embedded": true
+      },
+      "/BZIVMZ+LMRoman10-Regular": {
+        "subtype": "/Type1",
+        "embedded": true
+      },
+      "/IXFAWU+CMR7": {
+        "subtype": "/Type1",
+        "embedded": true
+      },
+      "/TQTHRL+CMSY7": {
+        "subtype": "/Type1",
+        "embedded": true
+      },
+      "/YEUUOC+LMRoman9-Regular": {
+        "subtype": "/Type1",
+        "embedded": true
+      },
+      "/AKHCZK+LMMono9-Regular": {
+        "subtype": "/Type1",
+        "embedded": true
+      },
+      "/VDVGTR+LMRoman9-Bold": {
+        "subtype": "/Type1",
+        "embedded": true
+      },
+      "/CAFSZL+CMR9": {
+        "subtype": "/Type1",
+        "embedded": true
+      },
+      "/DDIEWW+CMMI9": {
+        "subtype": "/Type1",
+        "embedded": true
+      },
+      "/FKPJSN+LMRoman9-Regular": {
+        "subtype": "/Type1",
+        "embedded": true
+      },
+      "/PVTTLK+LMRoman10-Bold": {
+        "subtype": "/Type1",
+        "embedded": true
+      },
+      "/JAGKKY+CMR10": {
+        "subtype": "/Type1",
+        "embedded": true
+      },
+      "/NOMARO+CMSY10": {
+        "subtype": "/Type1",
+        "embedded": true
+      },
+      "/KPXLOM+CMMI10": {
+        "subtype": "/Type1",
+        "embedded": true
+      },
+      "/UTACNV+CMMI7": {
+        "subtype": "/Type1",
+        "embedded": true
+      },
+      "/FZDNHS+CMEX10": {
+        "subtype": "/Type1",
+        "embedded": true
+      },
+      "/DZGKAF+CMMI5": {
+        "subtype": "/Type1",
+        "embedded": true
+      },
+      "/BUTEXX+DejaVuSans": {
+        "subtype": "/CIDFontType2",
+        "embedded": true
+      },
+      "/DEOWHK+DejaVuSans": {
+        "subtype": "/CIDFontType2",
+        "embedded": true
+      },
+      "/GJMHKB+CMR5": {
+        "subtype": "/Type1",
+        "embedded": true
+      },
+      "/NITCSQ+CMSY9": {
+        "subtype": "/Type1",
+        "embedded": true
+      },
+      "/UBBQTN+LMMono10-Regular": {
+        "subtype": "/Type1",
+        "embedded": true
+      },
+      "/LPOGEQ+CMMI6": {
+        "subtype": "/Type1",
+        "embedded": true
+      },
+      "/EOBZEY+DejaVuSans": {
+        "subtype": "/CIDFontType2",
+        "embedded": true
+      },
+      "/CUCTZS+DejaVuSans": {
+        "subtype": "/CIDFontType2",
+        "embedded": true
+      },
+      "/CPUQYB+DejaVuSans": {
+        "subtype": "/CIDFontType2",
+        "embedded": true
+      }
+    },
+    "all_embedded": true,
+    "type3_fonts": 0
+  },
+  "main_aina.pdf": {
+    "fonts": {
+      "/IHAIZV+LMRoman12-Bold": {
+        "subtype": "/Type1",
+        "embedded": true
+      },
+      "/BZIVMZ+LMRoman10-Regular": {
+        "subtype": "/Type1",
+        "embedded": true
+      },
+      "/IXFAWU+LMRoman9-Regular": {
+        "subtype": "/Type1",
+        "embedded": true
+      },
+      "/TQTHRL+LMMono9-Regular": {
+        "subtype": "/Type1",
+        "embedded": true
+      },
+      "/YEUUOC+LMRoman9-Bold": {
+        "subtype": "/Type1",
+        "embedded": true
+      },
+      "/AKHCZK+CMR9": {
+        "subtype": "/Type1",
+        "embedded": true
+      },
+      "/VDVGTR+CMMI9": {
+        "subtype": "/Type1",
+        "embedded": true
+      },
+      "/CAFSZL+LMRoman10-Bold": {
+        "subtype": "/Type1",
+        "embedded": true
+      },
+      "/DDIEWW+CMR10": {
+        "subtype": "/Type1",
+        "embedded": true
+      },
+      "/FKPJSN+CMSY10": {
+        "subtype": "/Type1",
+        "embedded": true
+      },
+      "/PVTTLK+CMMI10": {
+        "subtype": "/Type1",
+        "embedded": true
+      },
+      "/JAGKKY+CMSY7": {
+        "subtype": "/Type1",
+        "embedded": true
+      },
+      "/NOMARO+CMMI7": {
+        "subtype": "/Type1",
+        "embedded": true
+      },
+      "/KPXLOM+CMR7": {
+        "subtype": "/Type1",
+        "embedded": true
+      },
+      "/UTACNV+CMEX10": {
+        "subtype": "/Type1",
+        "embedded": true
+      },
+      "/FZDNHS+CMMI5": {
+        "subtype": "/Type1",
+        "embedded": true
+      },
+      "/BUTEXX+DejaVuSans": {
+        "subtype": "/CIDFontType2",
+        "embedded": true
+      },
+      "/DEOWHK+DejaVuSans": {
+        "subtype": "/CIDFontType2",
+        "embedded": true
+      },
+      "/DZGKAF+CMR5": {
+        "subtype": "/Type1",
+        "embedded": true
+      },
+      "/GJMHKB+CMSY9": {
+        "subtype": "/Type1",
+        "embedded": true
+      },
+      "/NITCSQ+LMMono10-Regular": {
+        "subtype": "/Type1",
+        "embedded": true
+      },
+      "/UBBQTN+CMMI6": {
+        "subtype": "/Type1",
+        "embedded": true
+      },
+      "/EOBZEY+DejaVuSans": {
+        "subtype": "/CIDFontType2",
+        "embedded": true
+      },
+      "/CUCTZS+DejaVuSans": {
+        "subtype": "/CIDFontType2",
+        "embedded": true
+      },
+      "/CPUQYB+DejaVuSans": {
+        "subtype": "/CIDFontType2",
+        "embedded": true
+      }
+    },
+    "all_embedded": true,
+    "type3_fonts": 0
+  }
+}

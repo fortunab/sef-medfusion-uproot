@@ -1,0 +1,34 @@
+@prefix med: <https://w3id.org/sef-medfusion/research#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+
+med:PredictionShape a sh:NodeShape ;
+  sh:targetClass med:Prediction ;
+  sh:property [ sh:path med:sample ; sh:minCount 1 ; sh:maxCount 1 ; sh:class med:Sample ] ;
+  sh:property [ sh:path med:model ; sh:minCount 1 ; sh:maxCount 1 ; sh:class med:Model ] ;
+  sh:property [ sh:path med:classLabel ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:string ] ;
+  sh:property [ sh:path med:confidence ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:double ; sh:minInclusive 0 ; sh:maxInclusive 1 ] ;
+  sh:property [ sh:path med:gradientNorm ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:double ; sh:minInclusive 0 ] ;
+  sh:property [ sh:path med:adversarialScore ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:double ; sh:minInclusive 0 ; sh:maxInclusive 1 ] ;
+  sh:property [ sh:path med:flagged ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:boolean ] ;
+  sh:property [ sh:path med:stageStatus ; sh:minCount 1 ; sh:maxCount 1 ; sh:in ("not_available"^^xsd:string "externally_supplied"^^xsd:string) ] ;
+  sh:property [ sh:path prov:wasGeneratedBy ; sh:minCount 1 ; sh:maxCount 1 ; sh:class med:ProcessingRun ] ;
+  sh:or (
+    [ sh:property [ sh:path med:stageStatus ; sh:hasValue "not_available"^^xsd:string ] ;
+      sh:property [ sh:path med:externalTNM ; sh:maxCount 0 ] ]
+    [ sh:property [ sh:path med:stageStatus ; sh:hasValue "externally_supplied"^^xsd:string ] ;
+      sh:property [ sh:path med:externalTNM ; sh:minCount 1 ; sh:maxCount 1 ; sh:class med:ExternalTNM ] ]
+  ) .
+
+med:ModelShape a sh:NodeShape ; sh:targetClass med:Model ;
+  sh:property [ sh:path med:sha256 ; sh:minCount 1 ; sh:maxCount 1 ; sh:pattern "^[a-f0-9]{64}$" ] .
+med:SampleShape a sh:NodeShape ; sh:targetClass med:Sample ;
+  sh:property [ sh:path med:sha256 ; sh:minCount 1 ; sh:maxCount 1 ; sh:pattern "^[a-f0-9]{64}$" ] .
+med:ExternalTNMShape a sh:NodeShape ; sh:targetClass med:ExternalTNM ;
+  sh:property [ sh:path med:T ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:string ] ;
+  sh:property [ sh:path med:N ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:string ] ;
+  sh:property [ sh:path med:M ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:string ] ;
+  sh:property [ sh:path med:stagingSystem ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:string ] ;
+  sh:property [ sh:path med:stagingEdition ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:string ] ;
+  sh:property [ sh:path prov:hadPrimarySource ; sh:minCount 1 ; sh:nodeKind sh:IRI ] .

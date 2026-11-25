@@ -1,0 +1,8 @@
+{
+  "document": "main.pdf",
+  "pages_including_references": 12,
+  "within_12_page_limit": true,
+  "unresolved_references": false,
+  "visual_inspection": "passed for delivered PDF; all 12 pages rendered and reviewed",
+  "pdf_sha256": "dbc2c317ce3beabb82db8b908587280473dc748e09f443c53a281016ec0c0963"
+}
